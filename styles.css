@@ -1,55 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.box{
-    width: 200px;
-    height: 200px;
-    background: orangered;
-    margin: 0 auto;
-    margin-top: 40px;
+.box {
+  width: 200px;
+  height: 200px;
+  background: orangered;
+  margin: 0 auto;
+  margin-top: 40px;
 
-    /* border: 10px dashed brown;
+  /* border: 10px dashed brown;
     border-width: 20px;
     border-style: groove dashed;
     border-color: brown steelblue; */
 
-    /* border-top: 10px solid brown ;
+  /* border-top: 10px solid brown ;
     border-right: 5px dashed white ;
     border-left: 18px double black;
     border-bottom: 6px dotted steelblue; */
 
-    border-top-width: 25px;
-    border-top-style: dotted;
-    border-top-color: greenyellow;
+  border-top-width: 25px;
+  border-top-style: dotted;
+  border-top-color: greenyellow;
 
-    border-right-width: 15px;
-    border-right-style: groove;
-    border-right-color: hotpink;
+  border-right-width: 15px;
+  border-right-style: groove;
+  border-right-color: hotpink;
 
-    border-bottom-width: 30px;
-    border-bottom-style: dashed;
-    border-bottom-color: purple;
+  border-bottom-width: 30px;
+  border-bottom-style: dashed;
+  border-bottom-color: purple;
 
-    border-left-width: 20px;
-    border-left-style: double;
-    border-left-color: black;
-
+  border-left-width: 20px;
+  border-left-style: double;
+  border-left-color: black;
 }
 
-.img{
-    display: block;
-    width: 600px;
-    height: 600px;
-    margin: 80px auto;
-    object-fit: cover;
-    border: 20px solid greenyellow;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+.img {
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: 80px auto;
+  object-fit: cover;
+  border: 20px solid greenyellow;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
+.card {
+  width: 650px;
+  border: 1px solid black;
+  margin: 20px auto;
+  background: #b4f8c8;
+  padding: 20px 0;
+}
+
+.title {
+  font-family: "Trebuchet MS";
+  text-align: center;
+  color: #36eee0;
+}
+.cta {
+  display: block;
+  width: 150px;
+  background: #ffaebc;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  color: #ecf87f;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 20px auto;
+}
