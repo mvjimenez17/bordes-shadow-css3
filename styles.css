@@ -21,19 +21,35 @@
     border-left: 18px double black;
     border-bottom: 6px dotted steelblue; */
 
-    border-top-width: ;
-    border-top-style: ;
-    border-top-color: ;
+    border-top-width: 25px;
+    border-top-style: dotted;
+    border-top-color: greenyellow;
 
-    border-right-width: ;
-    border-right-style: ;
-    border-right-color: ;
+    border-right-width: 15px;
+    border-right-style: groove;
+    border-right-color: hotpink;
 
-    border-right-width: ;
-    border-right-style: ;
-    border-right-color: ;
+    border-bottom-width: 30px;
+    border-bottom-style: dashed;
+    border-bottom-color: purple;
 
-
-
+    border-left-width: 20px;
+    border-left-style: double;
+    border-left-color: black;
 
 }
+
+.img{
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin: 80px auto;
+    object-fit: cover;
+    border: 20px solid greenyellow;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
